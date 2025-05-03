@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abitha's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home">
+        <div class="home-container1">
+            <h1>Welcome to My Portfolio</h1>
+            <h3>Hi, I'm Abitha</h3>
+            <h4>FULL STACK DEVELOPER</h4>
+            <div class="buttons">
+                <button class="btn" onclick="location.href='#projects'">Projects</button>
+                <p>or</p>
+                <button class="btn" onclick="location.href='#contact'">Contact Me</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="about-content">
+            <div class="about-content1">
+                <h1>About Me</h1>
+                <p>Hello! I'm Abitha, a Full Stack Developer with a passion for creating dynamic and responsive web
+                    applications. I specialize in both front-end and back-end development, ensuring seamless user
+                    experiences.</p>
+                <h2>My Vision</h2>
+                <p>I aim to create impactful solutions that solve real-world problems, all while continuously growing
+                    and
+                    adapting to new technologies and trends.</p>
+            </div>
+        </div>
+        <div class="about-container"></div>
+        <div class="about-pic">
+            <img src="about.png" alt="" srcset="">
+        </div>
+    </section>
+    <!--PROJECT SECTION-->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project1">
+                <h3>Cyber Cafe Management System</h3>
+                <p>A system to manage operations like customer registration, billing, and cafe management for a cyber
+                    cafe.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project2">
+                <h3>Two Level QR Code System for message sharing and document authentication</h3>
+                <p>This system utilizes two QR codes for secure message sharing and document authentication. It enhances
+                    security by ensuring that both access to content and its integrity are verified.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project3">
+                <h3>E-Commerce Website</h3>
+                <p>This project involves the development of a fully functional e-commerce website that enables users to
+                    browse products, add them to a shopping cart, and securely purchase them.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <div class="skills1">
+            <h2>Skills</h2>
+            <p>My technical and soft skills</p>
+        </div>
+
+        <div class="skills-container">
+            <div class="skills2">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>React.js, Node.js, Express.js</li>
+                    <li>Java, Python</li>
+                    <li>MongoDB, SQL</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+
+            <div class="skills3">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Teamwork & Collaboration</li>
+                    <li>Problem Solving</li>
+                    <li>Communication Skills</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICE SECTION -->
+    <section id="service">
+        <h2>My Services</h2>
+        <ul>
+            <li><strong>Web Development:</strong> Full-stack development for scalable and dynamic web applications.</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:abithaselavganesh@gmail.com" method="POST" enctype="multipart/form-data">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Type your message here"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/Abitha-E" target="_blank"><button>GitHub</button></a> |
+            <a href="mailto:abithaselvaganesh@example.com"><button>Email Me</button></a>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <p>&copy; 2025 Abitha. All rights reserved.</p>
+        <p>Designed with ❤️ by Abitha</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
